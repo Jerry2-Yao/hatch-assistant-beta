@@ -19,7 +19,7 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 ### 1. 下載 APK
 點下面連結下載（在手機瀏覽器打開本頁面即可）：
 
-👉 [下載 hatch-assistant-v0.1.0-beta.apk](../../releases/latest)
+👉 [下載 hatch-assistant-v0.1.0-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/latest)
 
 ### 2. 瀏覽器警告「這類檔案可能有害」
 用 Chrome 下載時，通常會跳出「已封鎖不安全的下載內容」或「這類檔案可能會損害你的裝置」的提示。這是因為這個 APK 不是從 Google Play 下載的，屬於正常現象。
