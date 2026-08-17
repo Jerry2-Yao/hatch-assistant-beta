@@ -38,7 +38,13 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 
 下載方式有兩種，擇一即可：
 
-### 方法一：Firebase App Distribution（推薦，之後會自動通知新版本）
+### 方法一：GitHub 手動下載
+
+👉 [下載 hatch-assistant-v0.2.1-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.1-beta/hatch-assistant-v0.2.1-beta.apk)
+
+> 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
+
+### 方法二：Firebase App Distribution（之後會自動通知新版本）
 
 用這個方式，之後有新版本會**主動通知**你更新，不用再回來這頁重新下載。
 
@@ -49,14 +55,6 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 5. 下載完成後，接續下面「安裝時可能遇到的提示」完成安裝
 
 > 想要收到自動更新推播，可以順便點頁面上的「Download App Tester」──這是 Firebase 官方提供的網頁工具，**不是 Play Store 上能搜尋到的 App**，直接從這個網頁下載安裝即可。不裝也沒關係，差別只在於要不要自己回來這個網址檢查新版本。
-
-### 方法二：GitHub 手動下載
-
-👉 [下載 hatch-assistant-v0.2.1-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.1-beta/hatch-assistant-v0.2.1-beta.apk)
-
-> 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
->
-> 這個連結的版本更新頻率不一定跟得上最新進度，建議優先用方法一。
 
 ### 安裝時可能遇到的提示（不管用哪個方法下載都一樣）
 
