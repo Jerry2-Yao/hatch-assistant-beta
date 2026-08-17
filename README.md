@@ -36,24 +36,41 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 
 ## 二、下載與安裝
 
-### 1. 下載 APK
-點下面連結，會**直接開始下載 APK**（在手機瀏覽器打開本頁面即可）：
+下載方式有兩種，擇一即可：
 
-👉 [下載 hatch-assistant-v0.2.0-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.0-beta/hatch-assistant-v0.2.0-beta.apk)
+### 方法一：Firebase App Distribution（推薦，之後會自動通知新版本）
 
-> 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**——那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
+用這個方式，之後有新版本會**主動通知**你更新，不用再回來這頁重新下載。
 
-### 2. 瀏覽器警告「這類檔案可能有害」
+1. 用手機瀏覽器打開：👉 [appdistribution.firebase.google.com](https://appdistribution.firebase.google.com)
+2. 用你已加入測試名單的 Google 帳號登入
+3. 第一次使用會看到「接受邀請」，請點下去
+4. 在測試 App 清單裡找到「孵蛋助手」，點進去後按「Download」下載最新版本
+5. 下載完成後，接續下面「安裝時可能遇到的提示」完成安裝
+
+> 想要收到自動更新推播，可以順便點頁面上的「Download App Tester」──這是 Firebase 官方提供的網頁工具，**不是 Play Store 上能搜尋到的 App**，直接從這個網頁下載安裝即可。不裝也沒關係，差別只在於要不要自己回來這個網址檢查新版本。
+
+### 方法二：GitHub 手動下載
+
+👉 [下載 hatch-assistant-v0.2.1-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.1-beta/hatch-assistant-v0.2.1-beta.apk)
+
+> 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
+>
+> 這個連結的版本更新頻率不一定跟得上最新進度，建議優先用方法一。
+
+### 安裝時可能遇到的提示（不管用哪個方法下載都一樣）
+
+**瀏覽器警告「這類檔案可能有害」**
 用 Chrome 下載時，通常會跳出「已封鎖不安全的下載內容」或「這類檔案可能會損害你的裝置」的提示。這是因為這個 APK 不是從 Google Play 下載的，屬於正常現象。
 點選提示旁邊的「**⋮ 更多**」或「**繼續**」→「**仍要下載**」即可。
 
-### 3. 安裝時「不允許安裝不明來源」
+**安裝時「不允許安裝不明來源」**
 點開下載好的 APK 準備安裝時，系統會擋下並顯示「你的手機不允許安裝來自此來源的不明應用程式」：
 1. 點畫面上的「**設定**」
 2. 找到「**允許此來源的應用程式**」（通常來源是「Chrome」或「檔案」App）並打開
 3. 返回上一頁，重新點一次 APK 完成安裝
 
-### 4. Google Play Protect 掃描警告（若出現）
+**Google Play Protect 掃描警告（若出現）**
 如果跳出「Play 保護機制」提示這個 App 可能有害，選「**仍要安裝**」／「**略過檢查**」即可（這是因為它不是 Play 商店的 App，並非真的偵測到病毒）。
 
 ---
