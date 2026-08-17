@@ -20,7 +20,7 @@
 
 ## 畫面長這樣
 
-<img src="screens/主畫面.png" alt="孵蛋助手主畫面截圖" width="360">
+<img src="screens/main-screen.png" alt="孵蛋助手主畫面截圖" width="360">
 
 （帳號那一列打了馬賽克，其餘都是實際畫面）
 
