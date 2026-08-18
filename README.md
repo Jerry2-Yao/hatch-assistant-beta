@@ -40,7 +40,7 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 
 ### 方法一：GitHub 手動下載
 
-👉 [下載 hatch-assistant-v0.2.3-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.3-beta/hatch-assistant-v0.2.3-beta.apk)
+👉 [下載 hatch-assistant-v0.2.4-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.4-beta/hatch-assistant-v0.2.4-beta.apk)
 
 > 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
 
