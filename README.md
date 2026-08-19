@@ -20,9 +20,9 @@
 
 ## 畫面長這樣
 
-<img src="screens/main-screen.png" alt="孵蛋助手主畫面截圖" width="360">
+<img src="screens/main-screen.png" alt="孵蛋助手主畫面截圖" width="360"> <img src="screens/settings-screen.png" alt="孵蛋助手設定畫面截圖" width="360">
 
-（帳號那一列打了馬賽克，其餘都是實際畫面）
+（帳號、暱稱等個人資訊已打馬賽克，其餘都是實際畫面）
 
 ---
 
@@ -40,7 +40,7 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 
 ### 方法一：GitHub 手動下載
 
-👉 [下載 hatch-assistant-v0.2.4-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.4-beta/hatch-assistant-v0.2.4-beta.apk)
+👉 [下載 hatch-assistant-v0.2.6-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.6-beta/hatch-assistant-v0.2.6-beta.apk)
 
 > 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
 
@@ -96,6 +96,14 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 - **進度卡**：顯示目前狀態、進度百分比、目標／已完成／剩餘／還剩時間。
 - **最下方「前往 Pokémon GO App 資訊」按鈕**：手動輔助功能，用來快速跳去 Pokémon GO 的系統設定頁強制停止它（第三方 App 沒有權限自動幫你做這件事）。這區未來會重新設計，先求能用。
 
+### 設定頁（點主畫面右上角齒輪圖示）
+
+- **暱稱**：完成鬧鈴通知會帶上這個暱稱，方便你用小米「應用分身」等雙開功能同時跑兩個帳號時，一看通知就知道是哪個帳號完成的。
+- **完成鬧鈴音效**：可以自訂完成時要放哪首鈴聲，不設定就用系統預設鬧鈴。
+- **強制使用震動**：開啟後，就算手機是正常響鈴狀態，完成時也一律只震動不出聲。
+- **同時寫入 Health Connect（實驗性）**：預設關閉。Pokémon GO 目前只讀 Google Fit，不需要打開；小米雙開分身不支援 Health Connect，打開也不會生效，保留這個開關只是為了未來 Google Fit API 若停用時能切換過去。
+- **背景寫入紀錄**：顯示下次背景喚醒的預定時間，以及最近 20 筆寫入結果。回報「無法寫入」問題時，麻煩附上這一段的截圖，能大幅加快排查速度。
+
 ---
 
 ## 五、已知限制
@@ -112,5 +120,6 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 - 手機廠牌/型號
 - 大概發生的操作步驟
 - 截圖或錄影（如果方便的話）
+- 如果是「進度卡在那裡、無法寫入」這類問題，麻煩額外附上**設定頁「背景寫入紀錄」**那一段的截圖
 
 謝謝你協助測試！
