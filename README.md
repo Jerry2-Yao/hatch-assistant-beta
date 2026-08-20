@@ -50,9 +50,11 @@ App 內的 Google 帳號登入功能目前設定為「測試中」狀態，**沒
 
 ### 方法一：GitHub 手動下載
 
-👉 [前往最新版下載頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/latest)
+👉 [下載 hatch-assistant-v0.2.7-beta.apk](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases/download/v0.2.7-beta/hatch-assistant-v0.2.7-beta.apk)
 
-進去以後請點檔名是 `.apk` 的那個（例如 `hatch-assistant-v0.2.7-beta.apk`），**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
+點上面這個連結就會直接開始下載安裝檔，不用再進其他頁面自己挑檔案。
+
+> 如果你是自己跑去 [Releases 頁面](https://github.com/Jerry2-Yao/hatch-assistant-beta/releases) 找檔案：請點檔名是 `.apk` 的那個，**不要點「Source code (zip)」或「(tar.gz)」**──那兩個是 GitHub 自動附加的原始碼壓縮檔，不是安裝檔，裝不起來。
 
 ### 方法二：Firebase App Distribution（之後會自動通知新版本）
 
